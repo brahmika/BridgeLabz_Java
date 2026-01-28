@@ -1,1 +1,1 @@
-# BridgeLabz_Java
+# Daily Project Logs-BridgeLabz Training

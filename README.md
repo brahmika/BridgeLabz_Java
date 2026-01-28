@@ -1,1 +1,1 @@
-# Daily Project Logs-BridgeLabz Training
+# Daily Project Logs - BridgeLabz Training

@@ -1,3 +1,5 @@
+// Checks if a number is natural and calculates the sum of n natural numbers.
+
 import java.util.Scanner;
 
 class L104 {

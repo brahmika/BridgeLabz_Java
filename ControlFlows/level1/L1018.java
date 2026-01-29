@@ -1,3 +1,5 @@
+// Prints the multiplication table of a number from 6 to 9.
+
 import java.util.Scanner;
 
 class L112 {

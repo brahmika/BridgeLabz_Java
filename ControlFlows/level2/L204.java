@@ -1,3 +1,5 @@
+// Checks whether a given number is a prime number.
+
 import java.util.Scanner;
 
 class L204 {

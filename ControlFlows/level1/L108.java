@@ -1,3 +1,5 @@
+// Prints a rocket launch countdown using a while loop.
+
 import java.util.Scanner;
 
 class L108 {

@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class L1010 {
+public class SumUntilZero {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

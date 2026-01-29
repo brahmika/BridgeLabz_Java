@@ -1,6 +1,6 @@
 // Write a program to check if a number is divisible by 5
 import java.util.Scanner;
-class L101 {
+public class DivisibleByFive {
     public static void main(String[] args){
         try (Scanner input = new Scanner(System.in)) {
             int num = input.nextInt();

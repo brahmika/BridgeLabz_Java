@@ -1,8 +1,8 @@
-// Prints the multiplication table of a number from 6 to 9.
+// Computes the sum of natural numbers using a while loop and formula.
 
 import java.util.Scanner;
 
-class L112 {
+public class MultiplicationTable {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

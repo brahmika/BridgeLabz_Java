@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class L1017 {
+public class EmployeeBonusCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

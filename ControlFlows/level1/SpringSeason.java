@@ -1,6 +1,10 @@
+
 // Checks whether the given date falls in the Spring season.
 
-class L107 {
+
+
+public class SpringSeason {
+>>>>>>> b124e46 ([Brahmika]: Level1 assignments done):ControlFlows/level1/SpringSeason.java
     public static void main(String[] args) {
 
         int month = Integer.parseInt(args[0]);

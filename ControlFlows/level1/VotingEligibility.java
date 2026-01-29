@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class L105 {
+public class VotingEligibility {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -1,8 +1,8 @@
-// Calculates the factorial of a number using a while loop.
+// Calculates the factorial of a number using a for loop.
 
 import java.util.Scanner;
 
-class L1014 {
+public class FactorialFor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -15,11 +15,9 @@ class L1014 {
         }
 
         int factorial = 1;
-        int i = 1;
 
-        while (i <= number) {
+        for (int i = 1; i <= number; i++) {
             factorial *= i;
-            i++;
         }
 
         System.out.println("The factorial of " + number + " is " + factorial);

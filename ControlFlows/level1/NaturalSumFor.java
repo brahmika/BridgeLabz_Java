@@ -1,8 +1,8 @@
-// Computes the sum of natural numbers using a while loop and formula.
+// Computes the sum of natural numbers using a for loop and formula.
 
 import java.util.Scanner;
 
-class L1012 {
+public class NaturalSumFor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -14,22 +14,19 @@ class L1012 {
             return;
         }
 
-        // Sum using while loop
-        int sumWhile = 0;
-        int i = 1;
-
-        while (i <= n) {
-            sumWhile += i;
-            i++;
+        // Sum using for loop
+        int sumFor = 0;
+        for (int i = 1; i <= n; i++) {
+            sumFor += i;
         }
 
         // Sum using formula
         int sumFormula = n * (n + 1) / 2;
 
-        System.out.println("Sum using while loop: " + sumWhile);
+        System.out.println("Sum using for loop: " + sumFor);
         System.out.println("Sum using formula: " + sumFormula);
 
-        if (sumWhile == sumFormula) {
+        if (sumFor == sumFormula) {
             System.out.println("Both results are correct and equal");
         } else {
             System.out.println("The results are not equal");

@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class L1011 {
+public class SumWithBreak {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

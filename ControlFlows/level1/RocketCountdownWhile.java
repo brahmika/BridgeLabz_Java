@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class L108 {
+public class RocketCountdownWhile {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

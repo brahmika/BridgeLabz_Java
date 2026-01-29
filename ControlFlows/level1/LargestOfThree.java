@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class L103 {
+public class LargestOfThree {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

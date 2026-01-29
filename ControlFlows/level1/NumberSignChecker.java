@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class L106 {
+public class NumberSignChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

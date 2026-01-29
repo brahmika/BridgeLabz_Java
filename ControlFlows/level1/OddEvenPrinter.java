@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class L1016 {
+public class OddEvenPrinter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

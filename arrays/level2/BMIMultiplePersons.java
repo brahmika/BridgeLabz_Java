@@ -1,6 +1,8 @@
+// Calculates BMI, height, weight, and weight status for multiple persons using arrays.
+
 import java.util.Scanner;
 
-class L206 {
+public class BMIMultiplePersons {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

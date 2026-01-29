@@ -1,7 +1,8 @@
+// Computes percentage and grade of students using arrays for physics, chemistry, and maths marks.
 
 import java.util.Scanner;
 
-class L208 {
+public class StudentGradesArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

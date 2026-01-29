@@ -1,6 +1,8 @@
+// Finds and displays the frequency of each digit in a given number using an array.
+
 import java.util.Scanner;
 
-class L205 {
+public class DigitFrequencyArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -27,10 +29,18 @@ class L205 {
             index++;
         }
 
-        System.out.println("Reversed number digits:");
-        for (int i = index - 1; i >= 0; i--) {
-            System.out.print(digits[i]);
+        int[] frequency = new int[10];
+
+        for (int i = 0; i < index; i++) {
+            frequency[digits[i]]++;
         }
-        System.out.println();
+
+        System.out.println("Digit Frequencies:");
+        for (int i = 0; i < 10; i++) {
+            if (frequency[i] > 0) {
+                System.out.println("Digit " + i + " = " + frequency[i]);
+            }
+        }
     }
 }
+

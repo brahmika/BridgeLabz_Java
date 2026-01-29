@@ -1,6 +1,8 @@
+// Calculates BMI for multiple persons using a 2D array to store height, weight, and BMI.
+
 import java.util.Scanner;
 
-class L207 {
+public class BMIMultiDimArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

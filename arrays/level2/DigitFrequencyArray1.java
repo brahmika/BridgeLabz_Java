@@ -1,17 +1,20 @@
+// Finds and displays the frequency of each digit in a given number using an array.
+
 import java.util.Scanner;
 
-class L204 {
+public class DigitFrequencyArray1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
+        int tempNumber = number;
 
         int maxDigit = 10;
         int[] digits = new int[maxDigit];
         int index = 0;
 
-        while (number != 0) {
+        while (tempNumber != 0) {
             if (index == maxDigit) {
                 maxDigit += 10;
                 int[] temp = new int[maxDigit];
@@ -21,24 +24,23 @@ class L204 {
                 digits = temp;
             }
 
-            digits[index] = number % 10;
-            number = number / 10;
+            digits[index] = tempNumber % 10;
+            tempNumber /= 10;
             index++;
         }
 
-        int largest = 0;
-        int secondLargest = 0;
+        int[] frequency = new int[10];
 
         for (int i = 0; i < index; i++) {
-            if (digits[i] > largest) {
-                secondLargest = largest;
-                largest = digits[i];
-            } else if (digits[i] > secondLargest && digits[i] != largest) {
-                secondLargest = digits[i];
-            }
+            frequency[digits[i]]++;
         }
 
-        System.out.println("Largest digit: " + largest);
-        System.out.println("Second Largest digit: " + secondLargest);
+        System.out.println("Digit Frequencies:");
+        for (int i = 0; i < 10; i++) {
+            if (frequency[i] > 0) {
+                System.out.println("Digit " + i + " = " + frequency[i]);
+            }
+        }
     }
 }
+

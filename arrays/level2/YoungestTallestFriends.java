@@ -1,6 +1,8 @@
+// Finds the youngest and tallest among three friends using arrays.
+
 import java.util.Scanner;
 
-class L202 {
+public class YoungestTallestFriends {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

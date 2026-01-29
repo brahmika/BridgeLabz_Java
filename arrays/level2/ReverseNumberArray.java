@@ -1,7 +1,8 @@
+// Reverses a number by storing its digits in an array and printing in reverse order.
 
 import java.util.Scanner;
 
-class L210 {
+public class ReverseNumberArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -28,18 +29,10 @@ class L210 {
             index++;
         }
 
-        int[] frequency = new int[10];
-
-        for (int i = 0; i < index; i++) {
-            frequency[digits[i]]++;
+        System.out.println("Reversed number digits:");
+        for (int i = index - 1; i >= 0; i--) {
+            System.out.print(digits[i]);
         }
-
-        System.out.println("Digit Frequencies:");
-        for (int i = 0; i < 10; i++) {
-            if (frequency[i] > 0) {
-                System.out.println("Digit " + i + " = " + frequency[i]);
-            }
-        }
+        System.out.println();
     }
 }
-

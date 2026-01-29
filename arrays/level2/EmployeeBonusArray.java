@@ -1,6 +1,8 @@
+// Calculates bonus, old and new salary for 10 employees based on years of service.
+
 import java.util.Scanner;
 
-class L201 {
+public class EmployeeBonusArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

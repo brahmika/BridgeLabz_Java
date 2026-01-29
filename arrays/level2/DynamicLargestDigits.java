@@ -1,19 +1,19 @@
+// Finds the largest and second largest digits with a dynamically resizing array.
 
 import java.util.Scanner;
 
-class L210 {
+public class DynamicLargestDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
-        int tempNumber = number;
 
         int maxDigit = 10;
         int[] digits = new int[maxDigit];
         int index = 0;
 
-        while (tempNumber != 0) {
+        while (number != 0) {
             if (index == maxDigit) {
                 maxDigit += 10;
                 int[] temp = new int[maxDigit];
@@ -23,23 +23,24 @@ class L210 {
                 digits = temp;
             }
 
-            digits[index] = tempNumber % 10;
-            tempNumber /= 10;
+            digits[index] = number % 10;
+            number = number / 10;
             index++;
         }
 
-        int[] frequency = new int[10];
+        int largest = 0;
+        int secondLargest = 0;
 
         for (int i = 0; i < index; i++) {
-            frequency[digits[i]]++;
-        }
-
-        System.out.println("Digit Frequencies:");
-        for (int i = 0; i < 10; i++) {
-            if (frequency[i] > 0) {
-                System.out.println("Digit " + i + " = " + frequency[i]);
+            if (digits[i] > largest) {
+                secondLargest = largest;
+                largest = digits[i];
+            } else if (digits[i] > secondLargest && digits[i] != largest) {
+                secondLargest = digits[i];
             }
         }
+
+        System.out.println("Largest digit: " + largest);
+        System.out.println("Second Largest digit: " + secondLargest);
     }
 }
-

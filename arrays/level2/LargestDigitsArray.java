@@ -1,6 +1,8 @@
+// Finds the largest and second largest digits of a number stored in an array.
+
 import java.util.Scanner;
 
-class L203 {
+public class LargestDigitsArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

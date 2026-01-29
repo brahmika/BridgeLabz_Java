@@ -1,4 +1,4 @@
-//Objects L103
+
 /*Write a program to create a Book class with attributes title, author, and price. Add a method to display the book details.
 */
 class bookHandle{

@@ -1,4 +1,6 @@
-public class L302 {
+// Performs multiple digit-based checks and computations on numbers using static methods.
+
+public class NumberChecker {
 
     public static int countDigits(int number) {
         int count = 0;

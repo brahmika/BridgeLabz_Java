@@ -1,6 +1,8 @@
+// Displays calendar for a given month and year using leap year check and first day calculation.
+
 import java.util.Scanner;
 
-public class L308 {
+public class CalendarDisplay {
 
     public static String getMonthName(int month) {
         String[] months = {

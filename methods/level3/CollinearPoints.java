@@ -1,4 +1,6 @@
-public class L310 {
+// Checks if 3 points are collinear using slope and triangle area method.
+
+public class CollinearPoints {
 
     public static boolean isCollinearSlope(double x1, double y1, double x2, double y2, double x3, double y3) {
         double slopeAB = (y2 - y1) / (x2 - x1);

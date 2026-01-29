@@ -1,6 +1,8 @@
+// Finds shortest, tallest, and mean height of 11 players using random heights between 150-250 cm.
+
 import java.util.Random;
 
-public class L301 {
+public class FootballTeamHeight {
 
     public static int[] generateHeights(int size) {
         int[] heights = new int[size];

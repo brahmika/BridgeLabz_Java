@@ -1,6 +1,8 @@
+// Generates random PCM marks for students and calculates total, average, and percentage.
+
 import java.util.Scanner;
 
-public class L312 {
+public class StudentScorecard {
 
     public static int[][] generateScores(int n) {
         int[][] scores = new int[n][3];

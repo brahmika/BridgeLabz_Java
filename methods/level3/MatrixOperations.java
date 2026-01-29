@@ -1,4 +1,6 @@
-public class L313 {
+// Performs matrix addition, subtraction, multiplication, transpose, determinant, and inverse.
+
+public class MatrixOperations {
 
     public static int[][] randomMatrix(int r, int c) {
         int[][] m = new int[r][c];

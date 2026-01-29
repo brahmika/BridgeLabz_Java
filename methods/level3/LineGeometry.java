@@ -1,6 +1,8 @@
+// Finds Euclidean distance and line equation y = m*x + b between two points.
+
 import java.util.Scanner;
 
-public class L309 {
+public class LineGeometry {
 
     public static double findDistance(double x1, double y1, double x2, double y2) {
         return Math.sqrt(

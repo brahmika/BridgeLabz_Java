@@ -1,4 +1,6 @@
-public class L306 {
+// Performs multiple digit-based checks and computations on numbers using static methods.
+
+public class NumberChecker6 {
 
     public static int[] findFactors(int number) {
         int count = 0;

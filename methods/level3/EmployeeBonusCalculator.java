@@ -1,4 +1,6 @@
-public class L311 {
+// Calculates bonus, new salary, total old salary, and total new salary for 10 employees.
+
+public class EmployeeBonusCalculator {
 
     public static int[][] generateEmployeeData(int n) {
         int[][] data = new int[n][2];

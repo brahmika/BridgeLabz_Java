@@ -1,4 +1,6 @@
-public class L307 {
+// Generates unique six-digit OTP numbers 10 times and validates uniqueness.
+
+public class OTPGenerator {
 
     public static int generateOTP() {
         return (int) (Math.random() * 900000) + 100000;

@@ -1,4 +1,6 @@
-public class L305 {
+// Performs multiple digit-based checks and computations on numbers using static methods.
+
+public class NumberChecker4 {
 
     public static boolean isPrime(int number) {
         if (number <= 1) {

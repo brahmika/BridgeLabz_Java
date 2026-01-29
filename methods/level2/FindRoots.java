@@ -1,6 +1,7 @@
+//To take input of double number and find the root value
 import java.util.Scanner;
 
-public class L211 {
+public class FindRoots {
 
     public static double[] findRoots(double a, double b, double c) {
         double delta = Math.pow(b, 2) - 4 * a * c;

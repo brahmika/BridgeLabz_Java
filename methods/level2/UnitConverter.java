@@ -1,4 +1,6 @@
-public class L204 {
+// Provides static methods to convert units: km-miles, miles-km, meters-feet, feet-meters, etc.
+
+public class UnitConverter {
 
     public static double convertKmToMiles(double km) {
         double km2miles = 0.621371;

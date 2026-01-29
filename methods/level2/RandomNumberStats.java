@@ -1,6 +1,8 @@
+// Generates 5 random 4-digit numbers and computes their average, minimum, and maximum using methods.
+
 import java.util.Scanner;
 
-public class L210 {
+public class RandomNumberStats {
 
     public static void calculateBMI(double[][] data) {
         for (int i = 0; i < data.length; i++) {

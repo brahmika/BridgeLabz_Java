@@ -1,6 +1,8 @@
+// Finds roots of a quadratic equation using Math.pow() and Math.sqrt() and returns roots.
+
 import java.util.Scanner;
 
-public class L209 {
+public class QuadraticSolver {
 
     public static boolean isPositive(int number) {
         return number >= 0;

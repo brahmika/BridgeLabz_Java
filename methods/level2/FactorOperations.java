@@ -1,6 +1,8 @@
+// Finds all factors of a number, stores in an array, computes sum, sum of squares, and product using methods.
+
 import java.util.Scanner;
 
-public class L201 {
+public class FactorOperations {
     public static int[] findFactor(int n){
         //find  factors of n
         // return factors as an array

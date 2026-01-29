@@ -1,6 +1,8 @@
+// Checks if numbers are positive/negative, even/odd, and compares first and last elements in array.
+
 import java.util.Scanner;
 
-public class L207 {
+public class NumberAnalyzer {
 
     public static boolean canStudentVote(int age) {
         if (age < 0) {

@@ -1,6 +1,8 @@
+// Computes sum of n natural numbers using recursion and formula, then compares results.
+
 import java.util.Scanner;
 
-public class L202 {
+public class NaturalNumberSumRecursive {
     public static int recursiveSum(int n){
         if(n == 1){
             return 1;

@@ -1,4 +1,6 @@
-public class L206 {
+// Finds the youngest and tallest among three friends based on age and height arrays.
+
+public class FriendAnalyzer {
 
     public static double convertFarhenheitToCelsius(double farhenheit) {
         double farhenheit2celsius = (farhenheit - 32) * 5 / 9;

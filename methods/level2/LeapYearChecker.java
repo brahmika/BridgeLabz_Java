@@ -1,6 +1,8 @@
+// Checks whether a given year is a leap year using a method with Gregorian calendar rules.
+
 import java.util.Scanner;
 
-public class L203 {
+public class LeapYearChecker {
     public static boolean leapYear(int year){
         if((year % 4 == 0 && year % 100 != 0) || (year % 400 ==0)){
             return true;

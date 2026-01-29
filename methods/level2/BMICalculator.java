@@ -1,6 +1,8 @@
+// Calculates BMI of 10 persons using a 2D array and returns weight status for each.
+
 import java.util.Scanner;
 
-public class L208 {
+public class BMICalculator {
 
     public static String findYoungest(String[] names, int[] ages) {
         int minAge = ages[0];

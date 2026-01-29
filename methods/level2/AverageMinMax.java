@@ -1,6 +1,7 @@
+// Find the average of the minimum and maximum value
 import java.util.Arrays;
 
-public class L212 {
+public class AverageMinMax {
 
     public static int[] generate4DigitRandomArray(int size) {
         int[] arr = new int[size];

@@ -1,4 +1,6 @@
-public class L205 {
+// Checks if 10 students can vote based on age using a method returning boolean.
+
+public class StudentVoteChecker {
 
     public static double convertYardsToFeet(double yards) {
         double yards2feet = 3;

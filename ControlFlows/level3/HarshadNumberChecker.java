@@ -1,6 +1,8 @@
+// Checks whether a number is divisible by the sum of its digits.
+
 import java.util.Scanner;
 
-class L303 {
+public class HarshadNumberChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

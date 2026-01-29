@@ -1,6 +1,8 @@
+// Checks whether a number is an Armstrong number using digit cube sum.
+
 import java.util.Scanner;
 
-class L301 {
+public class ArmstrongNumberChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

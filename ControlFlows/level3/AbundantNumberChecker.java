@@ -1,6 +1,8 @@
+// Checks whether a number is an abundant number.
+
 import java.util.Scanner;
 
-class L304 {
+public class AbundantNumberChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

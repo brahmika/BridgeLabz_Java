@@ -1,4 +1,6 @@
-class L305 {
+// Calculates the day of the week for a given date using a formula.
+
+public class DayOfWeek {
     public static void main(String[] args) {
         
         if (args.length != 3) {

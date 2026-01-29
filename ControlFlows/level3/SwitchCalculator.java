@@ -1,6 +1,8 @@
+// Performs arithmetic operations using switch-case based on user input.
+
 import java.util.Scanner;
 
-class L302 {
+public class SwitchCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -1,3 +1,5 @@
+// Determines whether a number is positive, negative, or zero.
+
 import java.util.Scanner;
 
 class L106 {

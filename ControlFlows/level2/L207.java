@@ -1,3 +1,5 @@
+// Calculates BMI and determines weight category.
+
 import java.util.Scanner;
 
 class L207 {

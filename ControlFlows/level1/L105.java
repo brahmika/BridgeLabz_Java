@@ -1,3 +1,5 @@
+// Checks whether a person is eligible to vote based on age.
+
 import java.util.Scanner;
 
 class L105 {

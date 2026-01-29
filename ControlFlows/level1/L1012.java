@@ -1,3 +1,5 @@
+// Computes the sum of natural numbers using a while loop and formula.
+
 import java.util.Scanner;
 
 class L1012 {

@@ -1,3 +1,5 @@
+// Finds the greatest factor of a number excluding itself.
+
 import java.util.Scanner;
 
 class L209 {

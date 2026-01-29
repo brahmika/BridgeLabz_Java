@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class L211 {
+public class FactorPrinter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

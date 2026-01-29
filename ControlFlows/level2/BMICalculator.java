@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class L207 {
+public class BMICalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

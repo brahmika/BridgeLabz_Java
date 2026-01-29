@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class L208 {
+public class FriendComparison {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

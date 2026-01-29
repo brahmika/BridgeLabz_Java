@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class L203 {
+public class GradeCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

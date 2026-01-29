@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class L204 {
+public class PrimeNumberChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

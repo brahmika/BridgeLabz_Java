@@ -1,3 +1,5 @@
+// Prints all multiples of a number below 100.
+
 import java.util.Scanner;
 
 class L212 {

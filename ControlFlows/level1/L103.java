@@ -1,3 +1,5 @@
+// Checks which number is the largest among three numbers.
+
 import java.util.Scanner;
 
 class L103 {

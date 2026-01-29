@@ -1,6 +1,8 @@
+// Finds and stores factors of a number in an array and displays them.
+
 import java.util.Scanner;
 
-class L108 {
+public class FactorArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -1,6 +1,8 @@
+// Saves FizzBuzz results into an array and prints each position.
+
 import java.util.Scanner;
 
-class L110 {
+public class FizzBuzzArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -1,7 +1,8 @@
+// Separates numbers from 1 to n into odd and even arrays and prints them.
 
 import java.util.Scanner;
 
-class L107 {
+public class OddEvenArrays {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

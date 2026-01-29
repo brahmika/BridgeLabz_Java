@@ -1,6 +1,8 @@
+// Stores up to 10 numbers in an array until 0 or negative and calculates the total.
+
 import java.util.Scanner;
 
-public class L104 {
+public class ArrayInputSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -1,6 +1,8 @@
+// Checks numbers for sign, even/odd, and compares first and last array elements.
+
 import java.util.Scanner;
 
-class L102 {
+public class NumberAnalysisArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

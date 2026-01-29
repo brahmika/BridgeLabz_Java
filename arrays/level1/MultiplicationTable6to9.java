@@ -1,6 +1,8 @@
+// Prints multiplication tables of a number from 6 to 9 using an array.
+
 import java.util.Scanner;
 
-class L105 {
+public class MultiplicationTable6to9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

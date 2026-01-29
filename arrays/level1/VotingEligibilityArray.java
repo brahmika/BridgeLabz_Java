@@ -1,6 +1,8 @@
+// Checks voting eligibility for 10 students using an array of ages.
+
 import java.util.Scanner;
 
-public class L101 {
+public class VotingEligibilityArray {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 

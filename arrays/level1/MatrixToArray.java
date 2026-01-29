@@ -1,6 +1,8 @@
+// Copies a 2D array into a single-dimensional array.
+
 import java.util.Scanner;
 
-class L109 {
+public class MatrixToArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

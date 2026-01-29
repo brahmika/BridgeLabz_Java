@@ -1,7 +1,8 @@
+// Prints the multiplication table of a number using an array.
 
 import java.util.Scanner;
 
-public class L103 {
+public class MultiplicationTableArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

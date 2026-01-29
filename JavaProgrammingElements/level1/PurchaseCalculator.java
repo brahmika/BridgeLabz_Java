@@ -1,6 +1,8 @@
+// Calculates total price using unit cost and quantity.
+
 import java.util.Scanner;
 
-public class L115 {
+public class PurchaseCalculator {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

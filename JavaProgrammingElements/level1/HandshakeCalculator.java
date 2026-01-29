@@ -1,5 +1,7 @@
+// Calculates the maximum number of handshakes among students.
+
 import java.util.Scanner;
-public class L116 {
+public class HandshakeCalculator {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number of students: ");

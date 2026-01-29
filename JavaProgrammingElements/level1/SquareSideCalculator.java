@@ -1,6 +1,7 @@
-import java.util.Scanner;
+// Finds the side length of a square from its perimeter.
 
-public class L112 {
+import java.util.Scanner;
+public class SquareSideCalculator {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

@@ -1,6 +1,8 @@
+// Performs basic arithmetic operations on two numbers.
+
 import java.util.Scanner;
 
-public class L111 {
+public class BasicCalculator {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

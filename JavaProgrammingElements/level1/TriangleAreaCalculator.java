@@ -1,5 +1,8 @@
+// Calculates the area of a triangle using base and height.
+
 import java.util.Scanner;
-public class L113 {
+
+public class TriangleAreaCalculator {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

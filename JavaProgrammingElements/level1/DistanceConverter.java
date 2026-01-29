@@ -1,6 +1,8 @@
+// Converts distance from feet into yards and miles.
+
 import java.util.Scanner;
 
-public class L114 {
+public class DistanceConverter {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

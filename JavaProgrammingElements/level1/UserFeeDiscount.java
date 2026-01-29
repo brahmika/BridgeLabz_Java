@@ -1,5 +1,7 @@
+// Calculates discount and final fee using user input.
+
 import java.util.Scanner;
-public class L109 {
+public class UserFeeDiscount {
     public static void main(String[] args){
         double fee;
         Scanner input = new Scanner(System.in);

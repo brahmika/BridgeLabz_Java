@@ -1,3 +1,5 @@
+// Checks whether a given year is a leap year using multiple if-else conditions.
+
 import java.util.Scanner;
 
 class L201 {

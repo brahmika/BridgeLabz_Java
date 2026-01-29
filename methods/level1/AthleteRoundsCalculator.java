@@ -1,9 +1,12 @@
+// Computes the number of rounds needed to run 5 km based on triangle perimeter.
+
 import java.util.Scanner;
 
-public class L102 {
+public class AthleteRoundsCalculator {
     public static int handShakes(int n) {
         return (n * (n - 1)) / 2;
     }
+
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);

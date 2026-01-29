@@ -1,6 +1,8 @@
+// Divides N chocolates among M children and returns quotient and remainder using a method.
+
 import java.util.Scanner;
 
-public class L109 {
+public class ChocolatesDivider {
     public static int[] Division(int n, int divisor){
         int reminder = n/divisor;
         int quoitent = n % divisor;

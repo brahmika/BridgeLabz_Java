@@ -1,6 +1,8 @@
+// Calculates simple interest for given principal, rate, and time using a method.
+
 import java.util.Scanner;
 
-class L101 {
+public class SimpleInterestCalculator {
     public static double SimpleInterest(double principalAmt, double time, double rate){
         return (principalAmt * rate * time) / 100;
     }

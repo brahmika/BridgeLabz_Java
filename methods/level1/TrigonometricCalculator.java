@@ -1,6 +1,8 @@
+// Calculates sine, cosine, and tangent for a given angle using Math class.
+
 import java.util.Scanner;
 
-public class L111 {
+public class TrigonometricCalculator {
 
     public static double calculateWindChill(double temperature, double windSpeed) {
 

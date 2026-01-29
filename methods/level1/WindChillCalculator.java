@@ -1,6 +1,8 @@
+// Calculates wind chill temperature using a method and given formula.
+
 import java.util.Scanner;
 
-public class L110 {
+public class WindChillCalculator {
 
     public static int[] findRemainderAndQuotient(int number, int divisor) {
 

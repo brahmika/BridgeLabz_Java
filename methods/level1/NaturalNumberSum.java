@@ -1,4 +1,6 @@
-public class L106 {
+// Calculates sum of n natural numbers using a loop in a method.
+
+public class NaturalNumberSum {
 
     public static boolean isSpringSeason(int month, int day) {
 

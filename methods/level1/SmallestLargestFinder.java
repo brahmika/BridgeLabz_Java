@@ -1,6 +1,8 @@
+// Finds smallest and largest of three numbers using a method returning an array.
+
 import java.util.Scanner;
 
-public class L107 {
+public class SmallestLargestFinder {
     public static int SumOfNatural(int n){
         int sum = 0;
         for(int i = 0; i < n; i++){

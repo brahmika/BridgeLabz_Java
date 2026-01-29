@@ -1,7 +1,8 @@
+// Computes quotient and remainder of two numbers using a method.
 
 import java.util.Scanner;
 
-public class L108 {
+public class QuotientRemainderCalculator {
 
     // Method to find smallest and largest numbers
     public static int[] findSmallestAndLargest(int number1, int number2, int number3) {

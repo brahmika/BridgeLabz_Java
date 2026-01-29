@@ -1,6 +1,8 @@
+// Checks if a given date falls in the spring season using a boolean method.
+
 import java.util.Scanner;
 
-public class L105 {
+public class SpringSeasonChecker {
     public static int CheckNumber(int num){
         if(num < 0){
             return -1;

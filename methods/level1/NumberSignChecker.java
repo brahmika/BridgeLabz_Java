@@ -1,6 +1,8 @@
+// Checks if a number is positive, negative, or zero using a method.
+
 import java.util.Scanner;
 
-public class L104 {
+public class NumberSignChecker {
 
     public static int checkRounds(int a, int b, int c){
         int perimeter = a + b + c;

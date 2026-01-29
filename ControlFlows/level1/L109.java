@@ -1,3 +1,5 @@
+// Prints a rocket launch countdown using a for loop.
+
 import java.util.Scanner;
 
 class L109 {

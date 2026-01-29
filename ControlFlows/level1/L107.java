@@ -1,3 +1,5 @@
+// Checks whether the given date falls in the Spring season.
+
 class L107 {
     public static void main(String[] args) {
 

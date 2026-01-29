@@ -1,3 +1,5 @@
+// Prints FizzBuzz sequence using a for loop.
+
 import java.util.Scanner;
 
 class L205 {

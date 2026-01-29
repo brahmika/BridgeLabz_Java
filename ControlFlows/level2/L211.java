@@ -1,3 +1,5 @@
+// Prints all factors of a given number.
+
 import java.util.Scanner;
 
 class L211 {

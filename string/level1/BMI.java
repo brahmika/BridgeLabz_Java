@@ -1,6 +1,8 @@
+// Demonstrate ArrayIndexOutOfBoundsException by accessing invalid array index
+
 import java.util.Scanner;
 
-class L108 {
+public class BMI  {
 
     static void generateException(String[] names) {
         System.out.println(names[names.length]);

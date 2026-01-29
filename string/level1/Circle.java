@@ -1,6 +1,8 @@
+// Return characters of string using method vs toCharArray() and compare
+
 import java.util.Scanner;
 
-public class L103 {
+public class Circle  {
 
     public static char[] getCharsManual(String str) {
         char[] arr = new char[str.length()];

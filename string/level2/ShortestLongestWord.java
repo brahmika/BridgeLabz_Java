@@ -1,6 +1,8 @@
+// Find shortest and longest word from text
+
 import java.util.Scanner;
 
-class L203 {
+public class ShortestLongestWord {
 
     static int findLength(String text) {
         int count = 0;
@@ -62,6 +64,30 @@ class L203 {
         return result;
     }
 
+    static int[] findShortestAndLongest(String[][] data) {
+
+        int min = Integer.parseInt(data[0][1]);
+        int max = Integer.parseInt(data[0][1]);
+        int minIndex = 0;
+        int maxIndex = 0;
+
+        for (int i = 1; i < data.length; i++) {
+            int len = Integer.parseInt(data[i][1]);
+
+            if (len < min) {
+                min = len;
+                minIndex = i;
+            }
+
+            if (len > max) {
+                max = len;
+                maxIndex = i;
+            }
+        }
+
+        return new int[]{minIndex, maxIndex};
+    }
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -71,13 +97,10 @@ class L203 {
 
         String[] words = splitUsingCharAt(input);
         String[][] table = wordsWithLength(words);
+        int[] result = findShortestAndLongest(table);
 
-        System.out.println("Word\tLength");
-
-        for (int i = 0; i < table.length; i++) {
-            int length = Integer.parseInt(table[i][1]);
-            System.out.println(table[i][0] + "\t" + length);
-        }
+        System.out.println("Shortest Word: " + table[result[0]][0]);
+        System.out.println("Longest Word: " + table[result[1]][0]);
 
         sc.close();
     }

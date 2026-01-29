@@ -1,6 +1,8 @@
+// Check if text reads same forward and backward
+
 import java.util.Scanner;
 
-class L307 {
+public class BMI {
 
     // Approach 1: Iterative
     static boolean isPalindromeIterative(String text) {

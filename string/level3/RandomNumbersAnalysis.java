@@ -1,6 +1,8 @@
+// Display a calendar for given month and year
+
 import java.util.Scanner;
 
-class L309 {
+public class RandomNumbersAnalysis {
 
     static String getMonthName(int month) {
         String[] months = { "January", "February", "March", "April", "May", "June",

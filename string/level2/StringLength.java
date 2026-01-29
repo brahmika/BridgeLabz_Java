@@ -1,6 +1,8 @@
+// Count characters using charAt() and handle runtime exception
+
 import java.util.Scanner;
 
-class L201 {
+public class StringLength {
 
     static int findLength(String text) {
         int count = 0;

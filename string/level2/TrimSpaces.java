@@ -1,6 +1,8 @@
+// Trim leading/trailing spaces without trim() and compare results
+
 import java.util.Scanner;
 
-class L207 {
+public class TrimSpaces {
 
     static int[] findTrimIndexes(String text) {
 

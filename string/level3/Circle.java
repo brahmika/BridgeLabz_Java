@@ -1,6 +1,8 @@
+// Use frequency array (size 256) to find first non-repeating character
+
 import java.util.Scanner;
 
-class L303 {
+public class Circle {
 
     static char firstNonRepeatingChar(String text) {
         int[] freq = new int[256]; // ASCII character frequencies

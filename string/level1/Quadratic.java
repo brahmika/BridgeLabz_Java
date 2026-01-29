@@ -1,6 +1,8 @@
+// Convert text to uppercase using charAt() and compare with built-in toUpperCase()
+
 import java.util.Scanner;
 
-class L109 {
+public class Quadratic  {
 
     static String convertToUpperUsingCharAt(String text) {
         String result = "";

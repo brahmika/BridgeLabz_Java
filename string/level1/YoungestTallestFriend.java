@@ -1,6 +1,9 @@
+// Demonstrate StringIndexOutOfBoundsException using charAt() and handle it
+
+
 import java.util.Scanner;
 
-public class L105 {
+public class YoungestTallestFriend  {
 
     public static void generateException(String text) {
         System.out.println(text.charAt(text.length())); // Index out of bounds

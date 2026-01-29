@@ -1,6 +1,8 @@
+// Compute total, average, percentage, and grade for students
+
 import java.util.Scanner;
 
-class L210 {
+public class StudentGrades  {
 
     static int[][] generateScores(int n) {
         int[][] scores = new int[n][3];

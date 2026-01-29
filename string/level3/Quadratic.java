@@ -1,6 +1,8 @@
+// Check if two strings have same character frequencies
+
 import java.util.Scanner;
 
-class L308 {
+public class Quadratic {
 
     static boolean areAnagrams(String text1, String text2) {
         // Find lengths

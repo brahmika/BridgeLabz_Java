@@ -1,6 +1,9 @@
+
+// Compare two strings using charAt() and validate with String.equals()
+
 import java.util.Scanner;
 
-public class L101 {
+public class Person {
 
     public static boolean compareStringCharAt(String s1, String s2) {
         if (s1.length() != s2.length()) {

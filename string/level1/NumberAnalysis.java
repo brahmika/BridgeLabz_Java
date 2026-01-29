@@ -1,19 +1,19 @@
+// Demonstrate IllegalArgumentException using substring() with wrong indices
+
 import java.util.Scanner;
 
-class L107 {
+public class NumberAnalysis  {
 
-    static void generateException(String text) {
-        int number = Integer.parseInt(text);
-        System.out.println("Number: " + number);
+    static void generateException(String str) {
+        System.out.println("Substring: " + str.substring(5, 2));
     }
 
-    static void handleException(String text) {
+    static void handleException(String str) {
         try {
-            int number = Integer.parseInt(text);
-            System.out.println("Number: " + number);
+            System.out.println("Substring: " + str.substring(5, 2));
         }
-        catch (NumberFormatException e) {
-            System.out.println("Caught NumberFormatException");
+        catch (IllegalArgumentException e) {
+            System.out.println("Caught IllegalArgumentException");
             System.out.println(e.getMessage());
         }
         catch (RuntimeException e) {
@@ -23,10 +23,9 @@ class L107 {
     }
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a value: ");
+        System.out.print("Enter a string: ");
         String input = sc.next();
 
         try {
@@ -37,7 +36,6 @@ class L107 {
         }
 
         handleException(input);
-
         sc.close();
     }
 }

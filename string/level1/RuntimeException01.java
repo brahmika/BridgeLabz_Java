@@ -1,17 +1,21 @@
+// Demonstrate NumberFormatException using Integer.parseInt()
+
 import java.util.Scanner;
 
-public class L106 {
+public class RuntimeException01 {
 
-    static void generateException(String str) {
-        System.out.println("Substring: " + str.substring(5, 2));
+    static void generateException(String text) {
+        int number = Integer.parseInt(text);
+        System.out.println("Number: " + number);
     }
 
-    static void handleException(String str) {
+    static void handleException(String text) {
         try {
-            System.out.println("Substring: " + str.substring(5, 2));
+            int number = Integer.parseInt(text);
+            System.out.println("Number: " + number);
         }
-        catch (IllegalArgumentException e) {
-            System.out.println("Caught IllegalArgumentException");
+        catch (NumberFormatException e) {
+            System.out.println("Caught NumberFormatException");
             System.out.println(e.getMessage());
         }
         catch (RuntimeException e) {
@@ -21,9 +25,10 @@ public class L106 {
     }
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a string: ");
+        System.out.print("Enter a value: ");
         String input = sc.next();
 
         try {
@@ -34,6 +39,7 @@ public class L106 {
         }
 
         handleException(input);
+
         sc.close();
     }
 }

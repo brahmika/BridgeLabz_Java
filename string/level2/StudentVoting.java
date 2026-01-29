@@ -1,6 +1,8 @@
+// Check if 10 students can vote based on age
+
 import java.util.Scanner;
 
-class L208 {
+public class StudentVoting {
 
     static int[] generateRandomAges(int n) {
         int[] ages = new int[n];

@@ -1,6 +1,9 @@
+
+// Create substring from string using charAt() and compare with String.substring()
+
 import java.util.Scanner;
 
-public class L102 {
+public class Book  {
 
     public static String createSubstringCharAt(String str, int start, int end) {
         String result = "";

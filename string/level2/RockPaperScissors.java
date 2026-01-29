@@ -1,6 +1,8 @@
+// User vs computer game, show stats and winning percentage
+
 import java.util.Scanner;
 
-class L209 {
+public class RockPaperScissors {
 
     static String getComputerChoice() {
         int choice = (int) (Math.random() * 3); // 0,1,2

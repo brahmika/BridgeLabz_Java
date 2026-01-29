@@ -1,6 +1,8 @@
+// Calculate BMI and show status for 10 team members
+
 import java.util.Scanner;
 
-class L301 {
+public class BMICalculator {
 
     static String[][] calculateBMI(double[][] hw) {
         String[][] result = new String[hw.length][4]; // weight, height, BMI, status

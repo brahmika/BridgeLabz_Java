@@ -1,6 +1,8 @@
+// Split text into words using charAt(), compare with built-in split()
+
 import java.util.Scanner;
 
-class L204 {
+public class TextSplit  {
 
     static int findLength(String text) {
         int count = 0;
@@ -49,41 +51,18 @@ class L204 {
         return words;
     }
 
-    static String[][] wordsWithLength(String[] words) {
+    static boolean compareStringArrays(String[] a, String[] b) {
 
-        String[][] result = new String[words.length][2];
-
-        for (int i = 0; i < words.length; i++) {
-            int len = findLength(words[i]);
-            result[i][0] = words[i];
-            result[i][1] = String.valueOf(len);
+        if (a.length != b.length) {
+            return false;
         }
 
-        return result;
-    }
-
-    static int[] findShortestAndLongest(String[][] data) {
-
-        int min = Integer.parseInt(data[0][1]);
-        int max = Integer.parseInt(data[0][1]);
-        int minIndex = 0;
-        int maxIndex = 0;
-
-        for (int i = 1; i < data.length; i++) {
-            int len = Integer.parseInt(data[i][1]);
-
-            if (len < min) {
-                min = len;
-                minIndex = i;
-            }
-
-            if (len > max) {
-                max = len;
-                maxIndex = i;
+        for (int i = 0; i < a.length; i++) {
+            if (!a[i].equals(b[i])) {
+                return false;
             }
         }
-
-        return new int[]{minIndex, maxIndex};
+        return true;
     }
 
     public static void main(String[] args) {
@@ -93,12 +72,12 @@ class L204 {
         System.out.print("Enter text: ");
         String input = sc.nextLine();
 
-        String[] words = splitUsingCharAt(input);
-        String[][] table = wordsWithLength(words);
-        int[] result = findShortestAndLongest(table);
+        String[] userSplit = splitUsingCharAt(input);
+        String[] builtInSplit = input.split(" ");
 
-        System.out.println("Shortest Word: " + table[result[0]][0]);
-        System.out.println("Longest Word: " + table[result[1]][0]);
+        boolean result = compareStringArrays(userSplit, builtInSplit);
+
+        System.out.println("Comparison Result: " + result);
 
         sc.close();
     }

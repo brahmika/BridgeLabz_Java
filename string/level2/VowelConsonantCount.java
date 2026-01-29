@@ -1,6 +1,8 @@
+// Count vowels and consonants in a string
+
 import java.util.Scanner;
 
-class L205 {
+public class VowelConsonantCount  {
 
     static String checkCharacter(char ch) {
 

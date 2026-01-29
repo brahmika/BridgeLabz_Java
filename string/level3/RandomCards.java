@@ -1,6 +1,8 @@
+// Create, shuffle, and distribute cards
+
 import java.util.Scanner;
 
-class L310 {
+public class RandomCards {
 
     static String[] initializeDeck() {
         String[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };

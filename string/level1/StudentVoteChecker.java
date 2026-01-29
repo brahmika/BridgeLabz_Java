@@ -1,4 +1,6 @@
-public class L104 {
+// Demonstrate NullPointerException and handle it using try-catch
+
+public class StudentVoteChecker  {
 
     public static void generateException() {
         String text = null;

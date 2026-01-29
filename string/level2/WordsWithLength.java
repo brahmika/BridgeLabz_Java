@@ -1,6 +1,8 @@
+// Split text into words and return 2D array [word][length]
+
 import java.util.Scanner;
 
-class L202 {
+public class WordsWithLength {
 
     static int findLength(String text) {
         int count = 0;
@@ -49,18 +51,17 @@ class L202 {
         return words;
     }
 
-    static boolean compareStringArrays(String[] a, String[] b) {
+    static String[][] wordsWithLength(String[] words) {
 
-        if (a.length != b.length) {
-            return false;
+        String[][] result = new String[words.length][2];
+
+        for (int i = 0; i < words.length; i++) {
+            int len = findLength(words[i]);
+            result[i][0] = words[i];
+            result[i][1] = String.valueOf(len);
         }
 
-        for (int i = 0; i < a.length; i++) {
-            if (!a[i].equals(b[i])) {
-                return false;
-            }
-        }
-        return true;
+        return result;
     }
 
     public static void main(String[] args) {
@@ -70,12 +71,15 @@ class L202 {
         System.out.print("Enter text: ");
         String input = sc.nextLine();
 
-        String[] userSplit = splitUsingCharAt(input);
-        String[] builtInSplit = input.split(" ");
+        String[] words = splitUsingCharAt(input);
+        String[][] table = wordsWithLength(words);
 
-        boolean result = compareStringArrays(userSplit, builtInSplit);
+        System.out.println("Word\tLength");
 
-        System.out.println("Comparison Result: " + result);
+        for (int i = 0; i < table.length; i++) {
+            int length = Integer.parseInt(table[i][1]);
+            System.out.println(table[i][0] + "\t" + length);
+        }
 
         sc.close();
     }

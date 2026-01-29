@@ -1,6 +1,8 @@
+// Convert text to lowercase using charAt() and compare with built-in toLowerCase()
+
 import java.util.Scanner;
 
-class L110 {
+public class RandomNumbersAnalysis  {
 
     static String convertToLowerUsingCharAt(String text) {
         String result = "";

@@ -1,6 +1,9 @@
+
+// Display type (Vowel/Consonant/Not a Letter) for each character
+
 import java.util.Scanner;
 
-class L206 {
+public class VowelConsonantType {
 
     static String checkCharacter(char ch) {
 

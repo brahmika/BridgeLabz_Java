@@ -1,3 +1,5 @@
+// Prints FizzBuzz sequence using a while loop.
+
 import java.util.Scanner;
 
 class L206 {

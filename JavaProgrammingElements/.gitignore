@@ -5,3 +5,6 @@ sampleprog2.java
 
 #java
 *.class
+
+.idea/
+*.class

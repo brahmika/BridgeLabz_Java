@@ -1,3 +1,5 @@
+// Calculates the sum of numbers until the user enters zero.
+
 import java.util.Scanner;
 
 class L1010 {

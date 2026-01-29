@@ -1,6 +1,8 @@
+// Calculates quotient and remainder of two numbers using division and modulus.
+
 import java.util.Scanner;
 
-public class L201 {
+public class QuotientRemainder {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

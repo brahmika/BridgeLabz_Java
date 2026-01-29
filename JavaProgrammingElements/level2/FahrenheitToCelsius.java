@@ -1,6 +1,8 @@
+// Converts temperature from Fahrenheit to Celsius.
+
 import java.util.Scanner;
 
-public class L205 {
+public class FahrenheitToCelsius {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

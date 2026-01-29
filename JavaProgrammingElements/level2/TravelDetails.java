@@ -1,6 +1,8 @@
+// Calculates travel distance and time using user-provided journey details.
+
 import java.util.Scanner;
 
-public class L208 {
+public class TravelDetails {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

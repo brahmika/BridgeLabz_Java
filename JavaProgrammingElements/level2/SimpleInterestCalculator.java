@@ -1,6 +1,8 @@
+// Calculates simple interest using principal, rate, and time.
+
 import java.util.Scanner;
 
-public class L211 {
+public class SimpleInterestCalculator {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

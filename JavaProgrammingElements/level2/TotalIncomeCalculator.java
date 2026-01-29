@@ -1,6 +1,8 @@
+// Calculates total income by adding salary and bonus.
+
 import java.util.Scanner;
 
-public class L206 {
+public class TotalIncomeCalculator {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

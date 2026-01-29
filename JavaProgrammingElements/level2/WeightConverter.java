@@ -1,6 +1,8 @@
+// Converts weight from pounds to kilograms.
+
 import java.util.Scanner;
 
-public class L212 {
+public class WeightConverter {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

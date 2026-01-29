@@ -1,6 +1,8 @@
+// Calculates the number of rounds required to complete a 5 km run in a triangular park.
+
 import java.util.Scanner;
 
-public class L209 {
+public class AthleteRoundsCalculator {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

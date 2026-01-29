@@ -1,6 +1,8 @@
+// Swaps two numbers entered by the user.
+
 import java.util.Scanner;
 
-public class L207 {
+public class NumberSwapper {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

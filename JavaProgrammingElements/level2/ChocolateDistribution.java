@@ -1,6 +1,8 @@
+// Distributes chocolates among children and finds remaining chocolates.
+
 import java.util.Scanner;
 
-public class L210 {
+public class ChocolateDistribution {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

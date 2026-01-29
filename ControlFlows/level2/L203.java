@@ -1,3 +1,5 @@
+// Calculates percentage, grade, and remarks based on subject marks.
+
 import java.util.Scanner;
 
 class L203 {

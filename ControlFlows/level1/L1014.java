@@ -1,3 +1,5 @@
+// Calculates the factorial of a number using a while loop.
+
 import java.util.Scanner;
 
 class L1014 {

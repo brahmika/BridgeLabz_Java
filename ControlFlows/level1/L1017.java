@@ -1,3 +1,5 @@
+// Calculates employee bonus based on years of service.
+
 import java.util.Scanner;
 
 class L1017 {

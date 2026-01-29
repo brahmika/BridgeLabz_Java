@@ -1,3 +1,5 @@
+// Calculates the power of a number using a loop.
+
 import java.util.Scanner;
 
 class L210 {

@@ -1,3 +1,5 @@
+// Finds the youngest and tallest among three friends.
+
 import java.util.Scanner;
 
 class L208 {

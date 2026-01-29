@@ -1,3 +1,5 @@
+// Determines leap year using a single if condition with logical operators.
+
 import java.util.Scanner;
 
 class L202 {

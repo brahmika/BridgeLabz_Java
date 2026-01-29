@@ -1,3 +1,5 @@
+// Prints whether numbers from 1 to n are odd or even.
+
 import java.util.Scanner;
 
 class L1016 {

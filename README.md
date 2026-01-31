@@ -24,4 +24,6 @@
   
 - **28-Jan-2025**: Learned Java source file structure, import statements, and dynamic class loading
   
-- **29-Jan-2025**: Restructured GitHub repository and unified file naming conventions
+- **29-Jan-2025**: Restructured GitHub repository and changed file naming conventions
+
+-  **30-Jan-2025**: Learned constructors and keywords in Java. Finished and pushed their assignments.

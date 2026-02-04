@@ -1,5 +1,5 @@
 /*
- * This program demonstrates:
+ * :This program demonstrates:
  * - Abstraction using the FoodItem abstract class
  * - Inheritance through VegItem and NonVegItem classes
  * - Interface implementation using Discountable

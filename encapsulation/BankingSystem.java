@@ -1,5 +1,5 @@
 /*
- * This program demonstrates:
+ * This program demonstrates::
  * - Abstraction using an abstract BankAccount class
  * - Inheritance through SavingsAccount and CurrentAccount
  * - Interface implementation using Loanable

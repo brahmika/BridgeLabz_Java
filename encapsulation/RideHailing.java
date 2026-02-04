@@ -130,7 +130,7 @@ class Auto extends Vehicle implements GPS {
     }
 }
 
-// Main class to demonstrate polymorphism
+// Main class to demonstrate polymorphism.
 public class RideHailingApp {
 
     // Polymorphic fare calculation method

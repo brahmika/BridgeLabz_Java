@@ -1,5 +1,5 @@
 /*
- * This program demonstrates Object-Oriented Programming concepts in Java:
+ * :This program demonstrates Object-Oriented Programming concepts in Java:
  * - Encapsulation using private fields and getter/setter methods
  * - Abstraction using an abstract class and abstract methods
  * - Interface implementation for department-related behavior

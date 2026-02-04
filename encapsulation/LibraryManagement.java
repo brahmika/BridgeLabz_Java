@@ -7,7 +7,7 @@
  * - Polymorphism by managing different items using LibraryItem reference
  */
 
-// Interface for reservation functionality
+// Interface for reservation functionality.
 interface Reservable {
 
     // Reserve the library item

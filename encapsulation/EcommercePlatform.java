@@ -1,5 +1,5 @@
 /*
- * This program demonstrates core Object-Oriented Programming concepts in Java:
+ * :This program demonstrates core Object-Oriented Programming concepts in Java:
  * - Abstraction using an abstract Product class
  * - Inheritance through Electronics, Clothing, and Groceries classes
  * - Encapsulation by protecting product details with private fields

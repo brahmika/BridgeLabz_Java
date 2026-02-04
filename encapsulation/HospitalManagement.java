@@ -9,7 +9,7 @@
  * - Polymorphism by handling different patient types dynamically
  */
 
-// Interface for medical record handling
+// Interface for medical record handling.
 interface MedicalRecord {
 
     // Add a medical record

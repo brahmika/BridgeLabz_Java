@@ -143,7 +143,7 @@ public class VehicleRental {
                 new Truck("TRK303", 2000, "POL54321")
         };
 
-        // Iterate through vehicles
+        // Iterate through vehicles.
         for (Vehicle v : vehicles) {
 
             // Calculate rental cost

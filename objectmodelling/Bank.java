@@ -85,7 +85,7 @@ public class Bank {
 
     public static void main(String[] args) {
 
-        // Creating bank
+        // Creating bank.
         Bank sbi = new Bank("SBI");
 
         // Creating customers

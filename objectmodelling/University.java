@@ -5,7 +5,7 @@
  - Aggregation between University and Faculty
 
  Deleting a University deletes all its Departments,
- but Faculty members can exist independently.
+ but Faculty members can exist independently..
 */
 
 import java.util.ArrayList;

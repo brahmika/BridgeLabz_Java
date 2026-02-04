@@ -7,7 +7,7 @@
 
 import java.util.ArrayList;
 
-// Patient class
+// Patient class.
 class Patient {
 
     String name;

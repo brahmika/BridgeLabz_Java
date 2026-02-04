@@ -7,7 +7,7 @@
 
 import java.util.ArrayList;
 
-// Product class
+// Product class.
 class Product {
 
     String productName;

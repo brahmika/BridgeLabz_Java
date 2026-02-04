@@ -19,7 +19,7 @@ class Course {
         this.courseName = courseName;
     }
 
-    // Method to add student to the course
+    // Method to add student to the course.
     void addStudent(Student student) {
         if (!students.contains(student)) {
             students.add(student);

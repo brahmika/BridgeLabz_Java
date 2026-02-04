@@ -77,7 +77,7 @@ public class Company {
 
     public static void main(String[] args) {
 
-        // Creating company
+        // Creating company.
         Company techCorp = new Company("TechCorp");
 
         // Adding departments

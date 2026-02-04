@@ -21,7 +21,7 @@ class Course {
         this.courseName = courseName;
     }
 
-    // Assign a professor to this course
+    // Assign a professor to this course.
     void assignProfessor(Professor professor) {
         this.professor = professor;
         professor.addCourse(this);

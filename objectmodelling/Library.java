@@ -55,7 +55,7 @@ public class Library {
         library1.addBook(book1);
         library1.addBook(book2);
 
-        // Creating second library
+        // Creating second library.
         Library library2 = new Library();
         library2.addBook(book1); // Same book added to another library
 

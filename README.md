@@ -33,3 +33,5 @@
 -  **02-Feb-2026**: Learned encapsulation, abstraction and how to use interfaces and polymorphism. Solved the assignment given.
 
 -  **03-Feb-2026**: Revised all the oops concepts for the review.
+
+-  **04-Feb-2026**: Started studying the data structure concepts like Linked List. Finished the OOPSBannerApp assignment.

@@ -1,0 +1,93 @@
+Java File Reading Practice Document
+------------------------------------
+
+This is a sample text file created for testing FileReader and BufferedReader in Java.
+Each line in this file is intentionally written to help understand how line-by-line
+reading works inside a Java program.
+
+Line 1: Java is an object-oriented programming language.
+Line 2: It was developed by James Gosling at Sun Microsystems.
+Line 3: Java follows the principle of Write Once, Run Anywhere.
+Line 4: JVM stands for Java Virtual Machine.
+Line 5: JRE stands for Java Runtime Environment.
+Line 6: JDK stands for Java Development Kit.
+Line 7: File handling is an important part of backend development.
+Line 8: FileReader reads character streams.
+Line 9: BufferedReader improves performance using buffering.
+Line 10: readLine() reads one full line at a time.
+
+Practice Section A
+------------------
+Learning Data Structures is important.
+Arrays are linear data structures.
+Linked lists store data dynamically.
+Stacks follow LIFO principle.
+Queues follow FIFO principle.
+HashMap stores key-value pairs.
+Trees represent hierarchical data.
+Graphs represent network relationships.
+
+Practice Section B
+------------------
+Sorting algorithms are important.
+Bubble sort has O(n^2) complexity.
+Insertion sort also has O(n^2) complexity.
+Merge sort has O(n log n) complexity.
+Quick sort is efficient in average cases.
+Binary search works only on sorted arrays.
+Linear search works on unsorted arrays.
+Time complexity measures algorithm efficiency.
+
+Practice Section C
+------------------
+Object-oriented concepts include:
+Encapsulation
+Abstraction
+Inheritance
+Polymorphism
+
+Exception handling prevents program crashes.
+try-catch blocks handle runtime exceptions.
+finally block executes always.
+throw is used to explicitly throw exceptions.
+throws is used in method signatures.
+
+Large Text Section
+------------------
+This section is added to increase file size for better performance testing.
+Reading large files helps understand memory usage and buffering efficiency.
+When reading files, always close resources to prevent memory leaks.
+Use try-with-resources for automatic resource management.
+System.nanoTime() is used for performance measurement.
+Garbage collection removes unused objects from memory.
+String is immutable in Java.
+StringBuilder is mutable and faster than StringBuffer.
+StringBuffer is thread-safe but slightly slower.
+
+Extra Lines for Testing
+-----------------------
+This is line 1 of extra testing content.
+This is line 2 of extra testing content.
+This is line 3 of extra testing content.
+This is line 4 of extra testing content.
+This is line 5 of extra testing content.
+This is line 6 of extra testing content.
+This is line 7 of extra testing content.
+This is line 8 of extra testing content.
+This is line 9 of extra testing content.
+This is line 10 of extra testing content.
+This is line 11 of extra testing content.
+This is line 12 of extra testing content.
+This is line 13 of extra testing content.
+This is line 14 of extra testing content.
+This is line 15 of extra testing content.
+This is line 16 of extra testing content.
+This is line 17 of extra testing content.
+This is line 18 of extra testing content.
+This is line 19 of extra testing content.
+This is line 20 of extra testing content.
+
+End of Sample File
+------------------
+This file can now be used to test FileReader and BufferedReader programs.
+You can modify, extend, or duplicate lines to make the file even larger.

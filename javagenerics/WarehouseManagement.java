@@ -41,7 +41,7 @@ class Electronics extends WarehouseItem {
 
     private int warrantyYears;
 
-    // Constructor for Electronics item
+    // Constructor for Electronics item.
     public Electronics(int id, String name, double price, int warrantyYears) {
         super(id, name, price);
         this.warrantyYears = warrantyYears;
@@ -98,6 +98,7 @@ class Storage<T extends WarehouseItem> {
     // Initializes storage list
     public int[] storage() {
         items = new ArrayList<>();
+        return new int[0];
     }
 
     // Adds item to storage

@@ -45,7 +45,7 @@ class SoftwareEngineer extends JobRole {
 
 class DataScientist extends JobRole {
 
-    // Constructor for Data Scientist role
+    // Constructor for Data Scientist role.
     public DataScientist() {
         super("Data Scientist");
     }

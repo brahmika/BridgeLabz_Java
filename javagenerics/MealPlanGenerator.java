@@ -67,7 +67,7 @@ class KetoMeal implements MealPlan {
 
 class HighProteinMeal implements MealPlan {
 
-    // Returns high protein meal plan name
+    // Returns high protein meal plan name.
     @Override
     public String getPlanName() {
         return "High Protein Meal Plan";

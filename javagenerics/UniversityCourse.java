@@ -84,7 +84,7 @@ class Course<T extends CourseType> {
     private String department;
     private T courseType;
 
-    // Constructor to initialize course details
+    // Constructor to initialize course details.
     public Course(String courseName, String department, T courseType) {
         this.courseName = courseName;
         this.department = department;

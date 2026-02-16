@@ -23,7 +23,7 @@ interface Category {
 
 class BookCategory implements Category {
 
-    // Returns category name for books
+    // Returns category name for books.
     public String getCategoryName() {
         return "Books";
     }
@@ -31,7 +31,7 @@ class BookCategory implements Category {
 
 class ClothingCategory implements Category {
 
-    // Returns category name for clothing
+    // Returns category name for clothing.
     @Override
     public String getCategoryName() {
         return "Clothing";
@@ -40,7 +40,7 @@ class ClothingCategory implements Category {
 
 class GadgetsCategory implements Category {
 
-    // Returns category name for gadgets
+    // Returns category name for gadgets.
     @Override
     public String getCategoryName() {
         return "Gadgets";
@@ -93,7 +93,7 @@ class MarketPlace {
 
 public class DynamicOnlineMarketplace {
 
-    // Entry point of the marketplace application
+    // Entry point of the marketplace application.
     public static void main(String[] args) {
 
         BookCategory bookcategory = new BookCategory();
@@ -117,7 +117,7 @@ public class DynamicOnlineMarketplace {
         System.out.println("=== Before Discount ===");
         displayCatalog(catalog);
 
-        // Apply discounts to selected products
+        // Apply discounts to selected products.
         MarketPlace.applyDiscount(book, 10);
         MarketPlace.applyDiscount(phone, 5);
 

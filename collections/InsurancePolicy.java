@@ -53,11 +53,11 @@ public class InsurancePolicy {
 
     // Adds a policy to all map structures
     public void addPolicy(Policy policy) {
-        hashMap.put(policy.policyNumber, policy);
-        linkedHashMap.put(policy.policyNumber, policy);
+        hashMap.put(policy.getPolicyNumber(), policy);
+        linkedHashMap.put(policy.getPolicyNumber(), policy);
 
         treeMap
-                .computeIfAbsent(policy.expiryDate, k -> new ArrayList<>())
+                .computeIfAbsent(policy.getExpiryDate(), k -> new ArrayList<>())
                 .add(policy);
     }
 
@@ -85,7 +85,7 @@ public class InsurancePolicy {
         List<Policy> result = new ArrayList<>();
 
         for (Policy policy : hashMap.values()) {
-            if (policy.policyholderName.equalsIgnoreCase(name)) {
+            if (policy.getPolicyholderName().equalsIgnoreCase(name)) {
                 result.add(policy);
             }
         }
@@ -102,7 +102,7 @@ public class InsurancePolicy {
 
         while (iterator.hasNext()) {
             Map.Entry<String, Policy> entry = iterator.next();
-            if (entry.getValue().expiryDate.isBefore(today)) {
+            if (entry.getValue().getExpiryDate().isBefore(today)) {
                 iterator.remove();
                 linkedHashMap.remove(entry.getKey());
             }

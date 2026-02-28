@@ -29,4 +29,4 @@ public class LambdaFunction {
                     pwd.matches(".*[0-9].*") &&
                     pwd.replaceAll("[a-zA-Z0-9]", "").length() == 1;
 
-    // Refactored method using the Lambda functions to throw Exceptions
+    // Refactored method using the Lambda functions to throw Exceptions.

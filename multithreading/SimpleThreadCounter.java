@@ -5,7 +5,7 @@
  * user-defined limit using multiple threads. Each thread prints numbers in
  * sequential order through synchronized coordination using wait() and notifyAll().
  * Proper interrupt handling and error management ensure safe execution without
- * race conditions or deadlocks.
+ * race conditions or deadlocks..
  */
 import java.util.InputMismatchException;
 import java.util.Scanner;

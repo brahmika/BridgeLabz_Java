@@ -1,5 +1,5 @@
 /*
- * Producer-Consumer Program
+ * Producer-Consumer Program.
  *
  * This program demonstrates thread coordination using a shared bounded queue.
  * The producer generates integer tasks and adds them to the queue, while the

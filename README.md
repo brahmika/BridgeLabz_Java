@@ -36,46 +36,49 @@
 
 -  **04-Feb-2026**: Started studying the data structure concepts like Linked List. Finished the OOPSBannerApp assignment.
 
-05-Feb-2026: Attended an interaction session with company representatives, learned about their work, and clarified doubts through questions.
+- **05-Feb-2026**: Attended an interaction with company representatives, learned about their work, and clarified doubts.
 
-06-Feb-2026: Studied Stack, Queue, HashMap, and Hashing in Java, including their internal working and operations. Practiced related assignments.
+- **06-Feb-2026**: Studied Stack, Queue, HashMap, and Hashing in Java, including internal working and practiced assignments.
 
-07-Feb-2026: Learned Bubble Sort, Insertion Sort, Merge Sort, and Quick Sort, focusing on their internal logic and iteration process. Practiced assignments.
+- **07-Feb-2026**: Learned Bubble Sort, Insertion Sort, Merge Sort, and Quick Sort with their internal logic and practiced problems.
 
-09-Feb-2026: Revised DSA topics including Linked Lists, HashMaps, Queues, Stacks, and Sorting Algorithms for review.
+- **09-Feb-2026**: Revised DSA topics including Linked Lists, HashMaps, Queues, Stacks, and Sorting Algorithms.
 
-10-Feb-2026: Continued revision of all major DSA concepts including Linked Lists, HashMaps, Queues, Stacks, and Sorting Algorithms.
+- **10-Feb-2026**: Continued revision of all major DSA concepts.
 
-11-Feb-2026: Completed Review 3 with Balaji Sir and started learning searching algorithms.
+- **11-Feb-2026**: Completed Review 3 and started learning searching algorithms.
 
-12-Feb-2026: Studied BufferedReader, FileReader, InputStreamReader, StringBuilder, StringBuffer, and Big-O Notation. Completed Assignments 4, 5, and 6.
+- **12-Feb-2026**: Studied Java I/O classes, StringBuilder, StringBuffer, Big-O Notation, and completed assignments 4, 5, and 6.
 
-13-Feb-2026: Learned Generics (classes, methods, bounded types, wildcards) and Java Collection Framework hierarchy. Completed Week 4 Assignments 1 and 2.
+- **13-Feb-2026**: Learned Generics, Java Collection Framework, and completed Week 4 assignments.
 
-14-Feb-2026: Completed Factory Robot Hazard Analyzer assignment. Studied Regex and finished related assignment.
+- **14-Feb-2026**: Completed Factory Robot Hazard Analyzer assignment and studied Regex.
 
-16-Feb-2026: Learned exception handling in Java using try-catch, explored custom exceptions, and completed assignment.
+- **16-Feb-2026**: Learned exception handling, custom exceptions, and completed assignment.
 
-17-Feb-2026: Practiced Regex concepts and completed assignments.
+- **17-Feb-2026**: Practiced Regex concepts and completed assignments.
 
-18-Feb-2026: Learned JUnit testing and how to write test cases.
+- **18-Feb-2026**: Learned JUnit testing and writing test cases.
 
-19-Feb-2026: Completed JUnit assignments and revised previously learned topics.
+- **19-Feb-2026**: Completed JUnit assignments and revised previous topics.
 
-20-Feb-2026: Studied and implemented different assert methods in Java.
+- **20-Feb-2026**: Studied and implemented assert methods in Java.
 
-21-Feb-2026: Completed review and finished remaining assignment questions.
+- **21-Feb-2026**: Completed review and remaining assignment questions.
 
-23-Feb-2026: Learned multithreading concepts including thread creation and methods like .join(), .sleep(), and .yield().
+- **23-Feb-2026**: Learned multithreading concepts and thread methods like join, sleep, and yield.
 
-24-Feb-2026: Studied synchronization, locking mechanisms, class-level and object-level locks, and static vs non-static synchronized methods.
+- **24-Feb-2026**: Studied synchronization, locking mechanisms, and static vs non-static synchronized methods.
 
-25-Feb-2026: Learned Java Streams, laziness principle, and intermediate vs terminal operations.
+- **25-Feb-2026**: Learned Java Streams, laziness principle, and intermediate vs terminal operations.
 
-26-Feb-2026: Studied Lambda expressions and completed related assignments.
+- **26-Feb-2026**: Studied Lambda expressions and completed assignments.
 
-27-Feb-2026: Revised previous topics and worked on the Quality Measurement App use case.
+- **27-Feb-2026**: Revised topics and worked on Quality Measurement App use case.
 
+- **28-Feb-2026**: Completed review and continued Quality Measurement App use cases.
+
+- **02-Mar-2026**: Completed pending assignments and progressed further with Quality Measurement App.
 28-Feb-2026: Completed review and continued further use cases for the Quality Measurement App.
 
 02-Mar-2026: Completed pending assignments and progressed further with the Quality Measurement App.
